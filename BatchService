@@ -8,3 +8,14 @@ Azure Batch Service :
 
   -It is managed service that enables us to run high performance paralled computing jobs in cloud.
   -It can be on demand or can be schduled to run at specific time.
+
+Batch Service Workflow : 
+
+  1. Upload your data files to azure storage account, while you run the task batch will download the data files 
+      to compute nodes for processing.
+  2. Upload the applications for running the task.(script/binary files).
+  3. Create compute nodes, specify size and OS (Linux or Windows).
+  4. Create job, it will manage the task and assign them to compute nodes for running and processing your data.
+  5. Add task to your job.
+  6. Monitor the job, as they finish output file get generated in storage account.
+  
