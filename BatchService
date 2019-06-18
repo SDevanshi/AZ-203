@@ -1,1 +1,10 @@
 
+Batch Processing :
+
+  -Execution of series of jobs without manual intervention.
+  -Batch process performs series of steps for processing an input, these steps are known as jobs.
+  
+Azure Batch Service :
+
+  -It is managed service that enables us to run high performance paralled computing jobs in cloud.
+  -It can be on demand or can be schduled to run at specific time.
