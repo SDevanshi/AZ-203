@@ -19,3 +19,14 @@ Batch Service Workflow :
   5. Add task to your job.
   6. Monitor the job, as they finish output file get generated in storage account.
   
+Below are some resources of batch service :
+
+  1. Batch Account (URL be like https://{account-name}.{region-id}.batch.azure.com)
+  2. Batch Rest api
+  3. Batch applications
+  4. Compute Pool- Collection of compute node where application run (One batch account can have more than one pool.)
+  5. Task Virtual machine.
+      a. Dedicated nodes.
+      b. Low priority nodes.
+  6. Tasks
+  7. Jobs
