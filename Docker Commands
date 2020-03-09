@@ -1,0 +1,54 @@
+docker --version
+This command is used to get the currently installed version of docker
+
+docker run – Runs a command in a new container.
+docker run -it -d <image name>
+
+docker pull – Pulls an image or a repository from a registry
+docker pull <image name>
+
+docker ps - This command is used to list the running containers
+
+docker ps -a
+This command is used to show all the running and exited containers
+
+
+docker exec – Runs a command in a run-time container
+docker exec -it <container id> bash
+
+
+docker stop – Stops one or more running containers
+docker stop <container id>
+
+
+docker kill <container id>
+This command kills the container by stopping its execution immediately. The difference between ‘docker kill’ and ‘docker stop’ is that ‘docker stop’ gives the container time to shutdown gracefully, in situations when it is taking too much time for getting the container to stop, one can opt to kill it
+
+docker commit – Creates a new image of an edited container on the local system
+docker commit <conatainer id> <username/imagename>
+
+
+docker login
+This command is used to login to the docker hub repository
+
+docker push – Pushes an image or a repository to a registry
+docker push <username/image name>
+
+docker images
+This command lists all the locally stored docker images
+
+
+docker rm - This command is used to delete a stopped container
+docker rm <container id>
+
+docker rmi - This command is used to delete an image from local storage
+docker rmi <image-id>
+
+docker build - This command is used to build an image from a specified docker file
+docker build <path to docker file>
+
+
+docker start – Starts one or more stopped containers
+docker export – Exports a container’s filesystem as a tar archive
+docker search – Searches the Docker Hub for images
+docker attach – Attaches to a running container
