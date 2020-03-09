@@ -2,3 +2,8 @@ Azure function authorization level
   -Function
   -Anonymous
   -Admin
+  
+  Web App Plans
+    -App Service Plan
+    -Consumption Plan
+    - Premier Plan
